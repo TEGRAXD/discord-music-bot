@@ -3,17 +3,29 @@
   "version": "1.0.0",
   "description": "Simple Discord Music Bot with Shoukaku & Laurentina.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TEGRAXD/discord-bot-music.git"
+    "url": "git+https://github.com/TEGRAXD/discord-music-bot.git"
   },
   "author": "TEGRAXD",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TEGRAXD/discord-bot-music/issues"
+    "url": "https://github.com/TEGRAXD/discord-music-bot/issues"
   },
-  "homepage": "https://github.com/TEGRAXD/discord-bot-music#readme"
+  "homepage": "https://github.com/TEGRAXD/discord-music-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "laurentina": "^1.0.8",
+    "shoukaku": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
